@@ -46,10 +46,15 @@
 }
 
 .example3 > div {
+    display: flex;
+    width: 550px;
+    justify-content: center;
     border: solid black 2px;
     background-color: #9999ff;
     border-radius: 25px;
-    padding: 12px;
+    padding: 10px;
+    flex-grow: 1;
+    
 
     /* Phase 3 */
 
